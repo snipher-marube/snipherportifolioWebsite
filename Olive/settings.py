@@ -15,6 +15,7 @@ SECRET_KEY = 'django-insecure-!cs1t0i2c+x=d*9aoty(ijj$^0*s93+_qk@-=i6j7nufiyc6a5
 DEBUG = False
 
 ALLOWED_HOSTS = ['snipherwebsite.herokuapp.com']
+#ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -128,12 +129,12 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp,EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "YOU_EMAIL"
-EMAIL_HOST_PASSWORD = 'YOU_EMAIL_PASSWORD'
+EMAIL_HOST_USER = "snipherdev@gmail.com"
+EMAIL_HOST_PASSWORD = 'tlkovdgdnxjldgbd'
 
 
 CKEDITOR_UPLOAD_PATH = 'uploads/'
