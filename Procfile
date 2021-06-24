@@ -1,1 +1,1 @@
-web: gunicorn Olive.wsgi --log-file -
+web: gunicorn Olive.wsgi
