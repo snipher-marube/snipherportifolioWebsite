@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-!cs1t0i2c+x=d*9aoty(ijj$^0*s93+_qk@-=i6j7nufiyc6a5
 DEBUG = False
 
 ALLOWED_HOSTS = ['snipherwebsite.herokuapp.com']
-#ALLOWED_HOSTS = ['127.0.0.1']
+
 
 
 # Application definition
