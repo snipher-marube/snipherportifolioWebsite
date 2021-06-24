@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!cs1t0i2c+x=d*9aoty(ijj$^0*s93+_qk@-=i6j7nufiyc6a5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['snipherportifoliowebsite.herokuapp.com']
 
 
 # Application definition
